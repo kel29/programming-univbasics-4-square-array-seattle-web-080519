@@ -1,3 +1,4 @@
 def square_array(array)
-  array.length.times { |i| i *= i }
+  counter = 0
+  while counter < array.length { |i| i *= i }
 end
